@@ -12,4 +12,11 @@ public class Calcolatrice {
     public double prodotto(double a, double b){
         return a*b;
     }
+
+    public double divisione(double a, double b) throws IllegalArgumentException{
+        if (b == 0d) {
+            throw new IllegalArgumentException("Impossibile dividere per zero.");
+        }
+        else return a/b;
+    }
 }
