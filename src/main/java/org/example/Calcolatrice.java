@@ -8,4 +8,8 @@ public class Calcolatrice {
     public double sottrazione(double a, double b){
         return a-b;
     }
+
+    public double prodotto(double a, double b){
+        return a*b;
+    }
 }
